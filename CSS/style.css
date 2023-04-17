@@ -138,7 +138,7 @@ del{
     width: 100%;
     height: 100px;
     margin: 0 auto;
-    background-color: orange;
+    background-color: black;
 }
 
 .row-3{
@@ -149,9 +149,31 @@ del{
 
 .col-50{
     width: 70%;
-    height: 100px;
-    align-content: space-between;
-    border: 1px dashed black;
-    background-color: brown;
+}
+
+.text{
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.info{
+    font-size: 9px;
+    margin-top: 5px;
+    color: white;
+}
+
+.text-1{
+    font-size: 12px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 360px;
+}
+
+.white-icon{
+    margin-left: 360px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
 }
 /* END SECTION-3 */
