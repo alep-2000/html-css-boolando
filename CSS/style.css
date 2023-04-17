@@ -8,91 +8,136 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+main{
+    margin-top: 50px;
+}
 /* SECTION-1 */
-.section-1{
-    width: 1170px;
-    height: 60px;
+.container-1{
+    max-width: 100%;
     margin: 0 auto;
     background-color: rgb(255, 105, 5);
 }
 
-.container-1{
-    width: 100%;
-}
-
-.row-1{
+.row{
     width: 70%;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
 }
 
 .col-33-header{
     width: 70%;
+    color: white;
 }
 
-h2{
+.menù{
     font-size: 12px;
     margin-left: 10px;
-}
-
-.center{
-    color: white;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .logo{
     height: 20px;
-    margin-left: 120px;
-    margin-top: 20px;
+    margin-left: 140px;
+    margin-top: 5px;
 }
 
 .fa-regular{
-    height: 50px;
+    margin-top: 5px;
 }
 
 .fa-user{
-    margin-left: 210px;
+    margin-left: 230px;
 }
 
 /* END SECTION-1 */
 /* SECTION-2 */
-.section-2{
-    width: 1170px;
-    height: 800px;
-    margin: 0 auto;
-}
-
 .container-2{
-    width: 100%;
-    height: 800px;
-    background-color: green;
+    max-width: 100%;
+    height: 1100px;
+    margin: 0 auto;
 }
 
-.row-2{
+.row-1{
     width: 70%;
-    height: 200px;
-    margin: 0 auto;
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .col-33{
-    width: calc(100% / 3 - 20px);
-    height: 350px;
-    margin: 10px;
-    background-color: yellow;
-}
-/* END SECTION-2 */
-/* SECTION-3 */
-.section-3{
-    width: 1170px;
-    height: 100px;
-    margin: 0 auto;
+    width: calc(100% / 3 - 40px);
+    margin: 20px 10px;
 }
 
+
+.full-img{
+    width: 100%;
+}
+
+.red{
+    background-color: red;
+    font-size: 8px;
+    padding: 3px;
+}
+
+.green{
+    background-color: green;
+    font-size: 8px;
+    padding: 3px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    color: white;
+}
+
+.position-absolute-heart{
+    position: absolute;
+    background-color: white;
+    font-size: 20px;
+    padding:3px 8px;
+    top: 5px;
+    right: 0;
+}
+
+.size{
+    font-size: 9px;
+}
+
+h2{
+    font-size: 12px;
+}
+
+.prize{
+    font-size: 9px;
+    color: red;
+}
+
+del{
+    font-size: 9px;
+    color: black;
+}
+
+/* END SECTION-2 */
+/* SECTION-3 */
 .container-3{
     width: 100%;
     height: 100px;
+    margin: 0 auto;
     background-color: orange;
 }
 
