@@ -19,7 +19,8 @@ header{
 main{
     margin-top: 50px;
 }
-/* SECTION-1 */
+/* HEADER */
+/* CONTAINER-1 */
 .container-1{
     max-width: 100%;
     margin: 0 auto;
@@ -57,8 +58,10 @@ main{
     margin-left: 230px;
 }
 
-/* END SECTION-1 */
-/* SECTION-2 */
+/* END CONTAINER-1 */
+/* END HEADER */
+/* MAIN */
+/* CONTAINER-2 */
 .container-2{
     max-width: 100%;
     height: 1100px;
@@ -82,6 +85,10 @@ main{
     width: 100%;
 }
 
+.full-img-1{
+    width: 100%;
+}
+
 .red{
     background-color: red;
     font-size: 8px;
@@ -96,6 +103,22 @@ main{
 
 .position-relative{
     position: relative;
+}
+
+.first-img{
+    display: block;
+}
+
+.second-img{
+    display: none;
+}
+
+.position-relative:hover .second-img{
+    display: block;
+}
+
+.position-relative:hover .first-img{
+    display: none;
 }
 
 .position-absolute{
@@ -132,8 +155,10 @@ del{
     color: black;
 }
 
-/* END SECTION-2 */
-/* SECTION-3 */
+/* END CONTAINER-2 */
+/* END MAIN */
+/* FOOTER */
+/* CONTAINER-3 */
 .container-3{
     width: 100%;
     height: 100px;
@@ -176,4 +201,5 @@ del{
     font-size: 20px;
     color: white;
 }
-/* END SECTION-3 */
+/* END CONTAINER-3 */
+/* END FOOTER */
