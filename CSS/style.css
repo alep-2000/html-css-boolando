@@ -7,13 +7,13 @@
 /* SECTION-1 */
 .section-1{
     width: 1170px;
-    height: 150px;
+    height: 100px;
     margin: 0 auto;
 }
 
 .container-1{
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: red;
 }
 
@@ -57,3 +57,29 @@
     background-color: yellow;
 }
 /* END SECTION-2 */
+/* SECTION-3 */
+.section-3{
+    width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.container-3{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+
+.row-2{
+    width: 70%;
+    height: 100px;
+    display: flex;
+}
+
+.col-100-footer{
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: brown;
+}
+/* END SECTION-3 */
