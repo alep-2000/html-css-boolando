@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -17,45 +17,47 @@ header{
     box-shadow: 0 0 10px 2px grey;
 }
 
-main{
+main {
     margin-top: 50px;
+    margin-bottom: 250px;
 }
+
 /* HEADER */
 /* CONTAINER-1 */
-.container-1{
+.container-1 {
     max-width: 100%;
     margin: 0 auto;
     background-color: rgb(255, 105, 5);
 }
 
-.row{
+.row {
     width: 70%;
     display: flex;
     margin: 0 auto;
 }
 
-.col-33-header{
+.col-33-header {
     width: 70%;
     color: white;
 }
 
-.menù{
+.menù {
     font-size: 12px;
     margin-left: 10px;
     margin-top: 5px;
 }
 
-.logo{
+.logo {
     height: 20px;
     margin-left: 140px;
     margin-top: 5px;
 }
 
-.fa-regular{
+.fa-regular {
     margin-top: 5px;
 }
 
-.fa-user{
+.fa-user {
     margin-left: 230px;
 }
 
@@ -63,99 +65,99 @@ main{
 /* END HEADER */
 /* MAIN */
 /* CONTAINER-2 */
-.container-2{
+.container-2 {
     max-width: 100%;
     height: 1100px;
     margin: 0 auto;
 }
 
-.row-1{
+.row-1 {
     width: 70%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
 }
 
-.col-33{
+.col-33 {
     width: calc(100% / 3 - 40px);
     margin: 20px 10px;
 }
 
 
-.full-img{
+.full-img {
     width: 100%;
 }
 
-.full-img-1{
+.full-img-1 {
     width: 100%;
 }
 
-.red{
+.red {
     background-color: red;
     font-size: 8px;
     padding: 3px;
 }
 
-.green{
+.green {
     background-color: green;
     font-size: 8px;
     padding: 3px;
 }
 
-.position-relative{
+.position-relative {
     position: relative;
 }
 
-.first-img{
+.first-img {
     display: block;
 }
 
-.second-img{
+.second-img {
     display: none;
 }
 
-.position-relative:hover .second-img{
+.position-relative:hover .second-img {
     display: block;
 }
 
-.position-relative:hover .first-img{
+.position-relative:hover .first-img {
     display: none;
 }
 
-.position-absolute-heart:hover{
+.position-absolute-heart:hover {
     color: red;
 }
 
-.position-absolute{
+.position-absolute {
     position: absolute;
     left: 0;
     bottom: 60px;
     color: white;
 }
 
-.position-absolute-heart{
+.position-absolute-heart {
     position: absolute;
     background-color: white;
     font-size: 20px;
-    padding:3px 8px;
+    padding: 3px 8px;
     top: 5px;
     right: 0;
 }
 
-.size{
+.size {
     font-size: 9px;
 }
 
-h2{
+h2 {
     font-size: 12px;
 }
 
-.prize{
+.prize {
     font-size: 9px;
     color: red;
 }
 
-del{
+del {
     font-size: 9px;
     color: black;
 }
@@ -164,47 +166,48 @@ del{
 /* END MAIN */
 /* FOOTER */
 /* CONTAINER-3 */
-.container-3{
+.container-3 {
     width: 100%;
     height: 100px;
     margin: 0 auto;
     background-color: black;
 }
 
-.row-3{
+.row-3 {
     width: 70%;
     margin: 0 auto;
     display: flex;
 }
 
-.col-50{
+.col-50 {
     width: 70%;
 }
 
-.text{
+.text {
     margin-top: 30px;
     font-size: 15px;
     color: white;
 }
 
-.info{
+.info {
     font-size: 9px;
     margin-top: 5px;
     color: white;
 }
 
-.text-1{
+.text-1 {
     font-size: 12px;
     color: white;
     margin-top: 30px;
     margin-left: 360px;
 }
 
-.white-icon{
+.white-icon {
     margin-left: 360px;
     margin-top: 5px;
     font-size: 20px;
     color: white;
 }
+
 /* END CONTAINER-3 */
 /* END FOOTER */
